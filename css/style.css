@@ -56,7 +56,8 @@ body {
 #testimonial,
 #gallery,
 #packages,
-#faq {
+#faq,
+#footer {
   margin-top: 5%;
 }
 .brand-btn {
@@ -97,5 +98,10 @@ body {
 }
 .hot-card .card-list-item i,
 .hot-card .card-list-item {
+  color: #fff;
+}
+
+#footer {
+  background-color: #0b0d17;
   color: #fff;
 }
