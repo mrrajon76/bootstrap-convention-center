@@ -11,7 +11,7 @@ body {
 }
 
 /* ==================================
-    Navbar Styles
+    Navbar custom Styles
 ================================== */
 .nav-title {
   font-size: 22px;
@@ -27,4 +27,18 @@ body {
 .navbar-expand-lg .navbar-nav .nav-link {
   font-weight: 500;
   padding: 0 1.2rem;
+}
+
+/* ==================================
+    Slider custom Styles
+================================== */
+.slider-contents {
+  bottom: 3rem;
+  right: 28%;
+  left: 28%;
+}
+.slider-btn {
+  padding: 0.5rem 2rem;
+  background-color: #fff;
+  color: #3f87f5;
 }
