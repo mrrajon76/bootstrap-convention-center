@@ -18,7 +18,8 @@ body {
   font-weight: 700;
   color: #3e3e3e !important;
 }
-.brand-color {
+.brand-color,
+.card-list-item i {
   color: #ec6385;
 }
 .nav-item .nav-link {
@@ -51,7 +52,11 @@ body {
 /* ==================================
     About custom Styles
 ================================== */
-#about-us {
+#about-us,
+#testimonial,
+#gallery,
+#packages,
+#faq {
   margin-top: 5%;
 }
 .brand-btn {
@@ -59,4 +64,38 @@ body {
   background-color: #ec6385;
   color: #fff;
   font-weight: 500;
+}
+/* ==================================
+    Gallery custom Styles
+================================== */
+.gallery-img:hover {
+  transform: scale(1.2, 1.2);
+  transition: transform 2s;
+}
+
+/* ==================================
+    Packages custom Styles
+================================== */
+.card-list-item {
+  padding: 0.5rem 0;
+  background: none;
+}
+.hot-card {
+  color: #fff;
+  background: #3f87f5;
+  box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+  border-radius: 26px;
+  position: relative;
+}
+.hot {
+  position: absolute;
+  top: -10px;
+  right: 15px;
+  padding: 5px 12px;
+  background-color: red;
+  border-radius: 50px;
+}
+.hot-card .card-list-item i,
+.hot-card .card-list-item {
+  color: #fff;
 }
