@@ -40,5 +40,23 @@ body {
 .slider-btn {
   padding: 0.5rem 2rem;
   background-color: #fff;
-  color: #3f87f5;
+  color: #ec6385;
+  font-weight: 500;
+}
+.slider-btn:hover {
+  background-color: #ec6385;
+  color: #fff;
+}
+
+/* ==================================
+    About custom Styles
+================================== */
+#about-us {
+  margin-top: 5%;
+}
+.brand-btn {
+  padding: 0.5rem 2rem;
+  background-color: #ec6385;
+  color: #fff;
+  font-weight: 500;
 }
