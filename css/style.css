@@ -9,35 +9,25 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-
-/* ==================================
-    Navbar custom Styles
-================================== */
-.nav-title {
-  font-size: 22px;
-  font-weight: 700;
-  color: #3e3e3e !important;
+#about-us,
+#testimonial,
+#gallery,
+#packages,
+#faq {
+  padding-top: 70px;
 }
 .brand-color,
 .card-list-item i {
   color: #ec6385;
 }
-.nav-item .nav-link {
-  color: #3e3e3e !important;
-}
-.navbar-expand-lg .navbar-nav .nav-link {
-  font-weight: 500;
-  padding: 0 1.2rem;
+.hot-card .card-list-item i,
+.hot-card .card-list-item {
+  color: #fff;
 }
 
 /* ==================================
     Slider custom Styles
 ================================== */
-.slider-contents {
-  bottom: 3rem;
-  right: 28%;
-  left: 28%;
-}
 .slider-btn {
   padding: 0.5rem 2rem;
   background-color: #fff;
@@ -52,20 +42,13 @@ body {
 /* ==================================
     About custom Styles
 ================================== */
-#about-us,
-#testimonial,
-#gallery,
-#packages,
-#faq,
-#footer {
-  margin-top: 5%;
-}
 .brand-btn {
   padding: 0.5rem 2rem;
   background-color: #ec6385;
   color: #fff;
   font-weight: 500;
 }
+
 /* ==================================
     Gallery custom Styles
 ================================== */
@@ -84,7 +67,7 @@ body {
 .hot-card {
   color: #fff;
   background: #3f87f5;
-  box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+  box-shadow: 0px 20px 20px rgba(63, 135, 245, 0.25);
   border-radius: 26px;
   position: relative;
 }
@@ -96,12 +79,12 @@ body {
   background-color: red;
   border-radius: 50px;
 }
-.hot-card .card-list-item i,
-.hot-card .card-list-item {
-  color: #fff;
-}
 
+/* ==================================
+    Footer custom Styles
+================================== */
 #footer {
+  margin-top: 70px;
   background-color: #0b0d17;
   color: #fff;
 }
